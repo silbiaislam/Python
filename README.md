@@ -5,3 +5,4 @@ Programs and games/projects for understanding python better.
 2. ReadQuestions - python script to read a file and identify sentences which are questions, words to look out for can be 'how', 'where', 'who', etc. and saves the output to a new file.
 3. Python_fundamentals (1,2,3)
 4. Python_Exercises - contains 10 basic python solved questions.
+5. Codility Solutions.
