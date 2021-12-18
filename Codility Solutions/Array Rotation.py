@@ -38,7 +38,19 @@ In your solution, focus on correctness. The performance of your solution will no
 
 Copyright 2009–2021 by Codility Limited. All Rights Reserved. Unauthorized copying, publication or disclosure prohibited.
 '''
+method - I
+def soution(A,K):
+    temp = []
+    n=len(A)
+    for i in range(K,n):
+        temp.append(A[i])
+    i = 0
+    for i in range (0,K):
+        temp.append(A[i])
+    A=temp.copy()
+    return A
 
+method - II
 def solution(A, K):
     if len(A) == 0:
         return A 
